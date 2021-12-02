@@ -6,3 +6,4 @@ alter table useraccount add column createdtime time not null;
 alter table useraccount add column otptime time not null;
 alter table useraccount add column status int(10) not null;
 select * from useraccount;
+ //servername:localhost, Username:newuser , Password:password , Databasename:Sample2
