@@ -37,31 +37,5 @@ if(isset($_POST['submit']))
     $otp=$_POST['otp'];
     $email=$_POST['email'];
 }
-//if(($_POST['otp'])==($row['token'])&&($timestamp<$verify))
-//{
-//    echo '
-//<script type="text/javascript">
-//$(document).ready(function(){
-//
-//  swal({
-//    position: "top-end",
-//    type: "success",
-//    title: "Your Registration has been saved Successfully!!",
-//    showConfirmButton: true,
-//  })
-//});
-//</script>
-//';
-//$query="update useraccount set otp=$otp where email='$email' and id=$id";
-//mysqli_query($conn,$query);
-//}
-//else
-//   {
-//
-//    $message = '<center><label class="text-danger" style="font-size:24px"><i class="fa fa-remove" style="font-size:24px"></i><i> Invalid OTP Number</i></label></center>';
-//    echo $message;
-//    
-//}
-//}
 
 ?>
